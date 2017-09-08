@@ -1,17 +1,17 @@
 ## Use JPA + Hibernate + MySQL in Spring Boot
 
 See here for more informations: 
-http://blog.usermanagment.com/2014/10/06/spring-boot-data-access-with-jpa-hibernate-and-mysql/
+https://docs.spring.io/spring-data/data-jpa/docs/current/reference/html/#jpa.query-methods.query-creation
 
 ### Usage
 
 - Run the application and go on http://localhost:8080/
 - Use the following urls to invoke controllers methods and see the interactions
   with the database:
-    * `/user/save?email=[email]&name=[name]`: create a new user with an 
+    * `/create?email=[email]&name=[name]`: create a new user with an 
       auto-generated id and email and name as passed values.
-    * `/user/delete?id=[id]`: delete the user with the passed id.
-    * `/user/get-by-email?email=[email]`: retrieve the id for the user with the
+    * `/delete?id=[id]`: delete the user with the passed id.
+    * `/get-by-email?email=[email]`: retrieve the id for the user with the
       passed email address.
 
 ### Build and run
