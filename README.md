@@ -24,4 +24,4 @@ Prerequisites
 --------------
 
 Java 7,
-Maven 3
+Maven 3, Mysql DB
