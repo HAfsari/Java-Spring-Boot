@@ -1,9 +1,12 @@
 # Java-Spring-Boot
+
 Use JPA + Hibernate + MySQL in Spring Boot
+--------------------------------------------
 
 See here for more informations: https://docs.spring.io/spring-data/data-jpa/docs/current/reference/html/#jpa.query-methods.query-creation
 
 Usage
+-----
 
 Run the application and go on http://localhost:8080/
 Use the following urls to invoke controllers methods and see the interactions with the database:
@@ -13,10 +16,12 @@ Use the following urls to invoke controllers methods and see the interactions wi
 Build and run
 
 Configurations
+--------------
 
 Open the application.properties file and set your own configurations for the database connection.
 
 Prerequisites
+--------------
 
 Java 7
 Maven 3
