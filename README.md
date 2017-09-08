@@ -23,5 +23,5 @@ Open the application.properties file and set your own configurations for the dat
 Prerequisites
 --------------
 
-Java 7
+Java 7,
 Maven 3
